@@ -4,4 +4,4 @@ Here I'm gonna post all projects from that roadmap. And I'll refactor this READM
 > This repo has not been finished yet, I'll add new projects soon.
 
 ## Project 1. Simple-page CV
-Simple project only using HTML. [!Here is the screenshot[44-Fw-CFf-Ub-Z.png](https://i.postimg.cc/q7H75hTN/44-Fw-CFf-Ub-Z.png)](https://postimg.cc/hXMgJGhn)
+Simple project only using HTML. ![Here](https://postimg.cc/hXMgJGhn)
