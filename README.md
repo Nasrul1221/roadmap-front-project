@@ -6,6 +6,6 @@ Here I'm gonna post all projects from that roadmap. And I'll refactor this READM
 ## Project 1. Simple-page CV
 Simple project only using HTML. [![44-Fw-CFf-Ub-Z.png](https://i.postimg.cc/q7H75hTN/44-Fw-CFf-Ub-Z.png)](https://postimg.cc/hXMgJGhn)
 
-Links
+## Links
 * [Simple-page CV](https://roadmap.sh/projects/single-page-cv) 
 * [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
