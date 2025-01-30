@@ -1,0 +1,229 @@
+/* General styles */
+body {
+    background-color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Main logo */
+.main-main {
+    margin-top: 90px;
+    background-color: #e7e7e7;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    background-color: #eaeaea;
+}
+.main-logo h1 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+.main-logo p {
+    font-size: 15px;
+    margin: 0 0 0 0;
+    color: gray;
+}
+
+/* Main content */
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Project */
+.projects {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #eaeaea;
+    flex-shrink: 0;
+}
+.projects h2 {
+    margin: 0;
+}
+.projects span {
+    font-size: 15px;
+    color: gray;
+    display: block;
+}
+.projects ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+}
+.projects a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    border-radius: 7px;
+    transition: color 0.15s;
+}
+.projects a:hover {
+    color: #b6b6b6;
+}
+
+/* Experience */
+.experience {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #eaeaea;
+    width: 350px;
+    flex-shrink: 0;
+}
+.experience h2 {
+    margin: 0;
+}
+
+.experience article {
+    width: 100%;
+}
+
+.roadmap, .project {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 5px;
+    background-color: #c0b9b9;
+    padding: 7px;
+    border-radius: 7px;
+    transition: color 0.15s;
+}
+.roadmap:hover, .project:hover {
+    color: #fff;
+}
+
+.git-btn {
+    display: flex;
+    width: 185px;
+    align-items: center;
+    border-radius: 7px;
+    position: relative;
+    background-color: #c0b9b9;
+    padding: 7px;
+}
+.git-btn a:hover {
+    color: #fff;
+}
+.git-btn a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 5px;
+    transition: color 0.15s;
+}
+.git-btn img {
+    width: 20px;
+}
+
+/* Education */
+.education {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #eaeaea;
+    width: 320px;
+    flex-shrink: 0;
+}
+.education h2 {
+    margin: 0;
+}
+
+/* Review */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.reviews div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews div blockquote {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    flex-shrink: 0;
+}
+.reviews div blockquote p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0 0 12px 0;
+}
+.reviews div blockquote footer {
+    font-size: 1.1em;
+    text-align: right;
+    color: gray;
+}
+
+/* Contact */
+.contact-main {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name, .email {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 30px;
+    width: 300px;
+}
+
+.message {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.submit {
+    border: none;
+    background: none;
+    font-size: 25px;
+    transition: background-color 0.15s;
+    border-radius: 7px;
+}
+
+.submit:hover {
+    background-color: rgba(206, 206, 206, 0.5);
+    cursor: pointer;
+}
+.submit:active {
+    background-color: rgba(206, 206, 206, 0.8);
+}

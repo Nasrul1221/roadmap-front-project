@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Projects for a simple HTML-only website for roadmap.sh frontend" />
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Nasrul" />
+    <title>Contacts | Basic HTML Website</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <img class="logo" src="images/av.jpg">
+      </div>
+
+      <nav>
+        <ul class="navigation">
+          <li><a class="main-nav" href="index.html">Home</a></li>
+          <li><a class="main-nav" href="projects.html">Projects</a></li>
+          <li><a class="main-nav" href="articles.html">Articles</a></li>
+          <li><a class="main-nav" href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-section">
+        <h1>Contact me</h1>
+        <form>
+          <label for="name">Name</label>
+          <input class="name" type="text" id="name" required>
+
+          <label for="email">Email</label>
+          <input class="email" type="email" id="email" required>
+
+          <label for="message">Message</label>
+          <textarea class="message" id="message" name="message" rows="5" required></textarea>
+
+          <input class="submit" type="submit">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; all rights reserved 2024</p>
+    </footer>
+  </body>
+</html>
