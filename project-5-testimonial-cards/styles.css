@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-0 {
+    display: flex;
+}
+
+.text-cloud {
+    background-color: #1e1e1e;
+    color: white;
+    width: 350px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.text-cloud:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #1e1e1e;
+}
+
+.text-0 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 350px;
+    margin: 0;
+}
+
+.card-1 {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.card-2 {
+    flex-shrink: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+}
+
+.card-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #1e1e1e;
+    width: 757px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 794px;
+}
+
+.change-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.self-cont {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.self h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.self p {
+    color: #e7e7e7;
+    margin: 7px 0 0 0;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.rating {
+    color: #ffc400;
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.text-1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card-author {
+    margin-left: 7px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-ch {
+    margin: 30px 0 0 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card-author h3 {
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+.card-author p {
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
+.image-cat {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.image-cat-card-3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.end-cat {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.opacity-size {
+    opacity: 0.5;
+    width: 59px;
+}
+
+.right {
+    margin-right: 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.left {
+    margin-left: 35px;
+    font-size: 30px;
+    cursor: pointer;
+}
